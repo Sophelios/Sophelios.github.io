@@ -1,0 +1,79 @@
+﻿body {
+    font-family: 'Domine', serif;
+    background-color:#4f4f4f;
+}
+.wrapper{
+    background: #E0E0E0;
+}
+#footer{
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color:black;
+    text-align:center;
+    font-size:3vmin;
+   
+}
+.contact{
+    font-size:1.75vmin;
+    color:black;
+    top:0;
+    text-align:right;
+    margin-top:0;
+    margin-bottom:.25vmin;
+    
+}
+a:link{
+    text-decoration:none;
+}
+#header h1{
+    text-align:right;
+    font-size:4.5vmin;
+    color:#219653;
+    
+    margin-bottom:.25vmin;
+}
+.TopJumbo {
+    margin-top:1vmin;
+    background-image: url('Images/jumbotronImg.jpg');
+}
+
+.github {
+    border-radius: 50%;
+    width: 1.75vmin;
+    height: 1.75vmin;
+    background-color: #E0E0E0;
+}
+.linkedin{
+    border-radius: 50%;
+    width: 1.75vmin;
+    height: 1.75vmin;
+}
+.github img{
+    border-radius: 50%;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: #E0E0E0;
+}
+.linkedin img{
+    border-radius: 50%;
+    width: 5vmin;
+    height: 5vmin;
+}
+.thumbnail {
+    background-color:rgba(76, 175, 80, 0.0) 
+}
+.caption{
+    text-align:center;
+}
+.caption h3{
+    color:#219653;
+}
+hr{
+    border:1px solid black;
+}
+.header{
+    font-size:4.5vmin;
+    color:#219653;
+}
+.bold{
+    font:bold;
+}
