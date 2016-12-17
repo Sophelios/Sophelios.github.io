@@ -2,14 +2,29 @@
     font-family: 'Domine', serif;
     background-color:#4f4f4f;
 }
+
+#header {
+    text-align: right;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+#header h1 {
+    font-size:2.5em;
+    font-family: Domine;
+    font-weight: 900;
+    color:#219653;
+}
+
 .wrapper{
     background: #E0E0E0;
 }
 #footer{
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    margin: 20px;
     color:black;
     text-align:center;
-    font-size:3vmin;
+    font-size:3em;
    
 }
 .contact{
@@ -38,25 +53,25 @@ a:link{
 
 .github {
     border-radius: 50%;
-    width: 1.75vmin;
-    height: 1.75vmin;
+    width: 1.75em;
+    height: 1.75em;
     background-color: #E0E0E0;
 }
 .linkedin{
     border-radius: 50%;
-    width: 1.75vmin;
-    height: 1.75vmin;
+    width: 1.75em;
+    height: 1.75em;
 }
 .github img{
     border-radius: 50%;
-    width: 5vmin;
-    height: 5vmin;
+    width: 1.5em;
+    height: 1.5em;
     background-color: #E0E0E0;
 }
 .linkedin img{
     border-radius: 50%;
-    width: 5vmin;
-    height: 5vmin;
+    width: 1.5em;
+    height: 1.5em;
 }
 .thumbnail {
     background-color:rgba(76, 175, 80, 0.0) 
@@ -70,10 +85,12 @@ a:link{
 hr{
     border:1px solid black;
 }
-.header{
+.heading{
     font-size:4.5vmin;
     color:#219653;
 }
-.bold{
-    font:bold;
+#rickPic {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
